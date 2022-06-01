@@ -1,5 +1,4 @@
 import Logo from '../images/airbnb-logo.png'
-import "./Header.css"
 
 export default function Header(){
     return (
