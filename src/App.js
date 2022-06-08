@@ -8,7 +8,7 @@ function App() {
   const cardElements = data.map((card)=>{
     return(
       <Card 
-      id={card.id}
+      key={card.id}
       img={card.coverImg} 
       rating={card.stats.rating} 
       reviewCount={card.stats.reviewCount} 
@@ -23,7 +23,10 @@ function App() {
     <>
    <Header/>
    <PhotoGrid/>
-   {cardElements}
+   <div className="card--wrapper">
+       {cardElements}
+    </div>
+  
    </>
   );
 }
