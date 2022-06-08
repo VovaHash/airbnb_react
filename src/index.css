@@ -58,7 +58,11 @@ section{
   max-width: 300px;
 }
 
-
+.card--wrapper{
+  display: flex;
+  flex-direction: row;
+  
+}
 
 .card--image_overlay{
   background-color: white;
@@ -79,6 +83,7 @@ section{
 
 .card--image{
   width: 176px;
+  border-radius: 10px;
 }
 
 .card--text{
