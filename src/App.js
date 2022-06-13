@@ -23,9 +23,9 @@ function App() {
     <>
    <Header/>
    <PhotoGrid/>
-   <div className="card--wrapper">
+   <section className="card--wrapper">
        {cardElements}
-    </div>
+    </section>
   
    </>
   );
