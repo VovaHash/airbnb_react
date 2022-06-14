@@ -9,7 +9,7 @@ function App() {
     return(
       <Card 
       key={card.id}
-      item = {card}
+      {...card}
       />
     )
   })
